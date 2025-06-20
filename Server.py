@@ -73,7 +73,7 @@ def handle_client(conn, addr, u_name):
                 str = str.replace("`", "\n")
                 pyautogui.write(str[1:], interval = 0.05)
                 continue
-        if str[0]== '!' and str[1 == '!']:
+        if str[0]== '!' and str[1] == '!':
             spl = str[2:].split('~')
             if len(spl)==1:
                 pyautogui.hotkey(spl[0])
