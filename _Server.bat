@@ -1,3 +1,3 @@
 @echo on
-cmd /C "python telnetServer.py"
+cmd /C "python Server.py"
 pause
