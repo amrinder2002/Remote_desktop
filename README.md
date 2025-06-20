@@ -28,3 +28,11 @@ The client machine sends commands to server machine, where they get executed, an
 
 - [@amrindersingh](co20305@ccet.ac.in)
 - [@abdulrahim2002](co20301@ccet.ac.in)
+
+## Running Tests
+
+Install pytest and run the suite:
+
+```bash
+pytest
+```
