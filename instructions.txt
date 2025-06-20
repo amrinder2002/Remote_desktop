@@ -15,13 +15,13 @@ type file.txt
 notepad file.txt # opens notepad
 
 # how to write:
-two write, type ! followed by text. To type next line character, type '~'
+to write, type ! followed by text. To type next line character, type '~'
 
 examples:
 !hi`hi writes "hi\hi"
 
 # how to type shortcuts: 
-start with !! then type keys seprated by ~ for example
+start with !! then type keys separated by ~ for example
 
 !!ctrl~s # save
 !!alt~f4 # close
@@ -35,4 +35,4 @@ keycodes:
 4. f4: f4
 
 # gcc command to compile code
-gcc -o output input.cd
+gcc -o output input.c
