@@ -69,6 +69,9 @@ def handle_client(conn, addr, u_name):
         str = msg
         # if str == "exit()":
         #     exit()
+        # Commands can begin with:
+        #  !text      -> type text via pyautogui
+        #  !!shortcut -> send keyboard shortcut via pyautogui.hotkey
         if str[0]=="!" and str[1]!="!":
                 str = str.replace("`", "\n")
                 pyautogui.write(str[1:], interval = 0.05)
